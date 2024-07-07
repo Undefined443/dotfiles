@@ -1,0 +1,44 @@
+StrictHostKeyChecking no
+CheckHostIP no
+SendEnv -LC_* -LANG*
+Include ~/.orbstack/ssh/config
+
+Host *
+  #	IdentityAgent "~/Library/Group Containers/2BUA8C4S2C.com.1password/t/agent.sock"
+  ServerAliveInterval 60
+  ServerAliveCountMax 2
+
+Host vps
+  HostName 43.198.203.230
+  User ubuntu
+
+Host vast.ai
+  HostName 36.225.191.109
+  Port 41232
+  User xiao
+  LocalForward 7860 localhost:7860
+
+Host github.com
+  HostName ssh.github.com
+  User git
+  Port 443
+
+Host parallels-ubuntu
+  HostName 10.211.55.5
+  User parallels
+
+Host windows
+  HostName 192.168.1.110
+  User windows11
+
+Host windows-remote
+    HostName 8.134.175.243
+    User windows11
+    Port 6000
+    Compression yes
+    ServerAliveInterval 60
+    ServerAliveCountMax 2
+
+Host guangzhou-ubuntu
+  HostName 8.134.175.243
+  User ecs-user

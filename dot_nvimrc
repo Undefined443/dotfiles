@@ -1,0 +1,14 @@
+set mouse=a " 启用鼠标在所有模式下的支持
+set selection=exclusive " 选择文本时不包括光标所在的字符
+set selectmode=mouse,key " 设置在哪些操作下会进入选择模式
+set expandtab " 每次按下 Tab 键时插入相应数量的空格
+set autoindent " 开启自动缩进
+set smartindent " 开启智能缩进
+set tabstop=4 " 设置 Tab 键的宽度
+set shiftwidth=4 " 设置缩进或者反缩进时代码移动的空格数
+set softtabstop=4 " 按退格键时可以删除的空格数量
+
+" packadd! dracula_pro
+syntax enable
+" let g:dracula_colorterm = 0
+" colorscheme dracula_pro

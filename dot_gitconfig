@@ -1,0 +1,33 @@
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:
+	name = Xiao Li
+	email = xiaoli3397@gmail.com
+	signingkey = 0D17643C
+[advice]
+# Checkout 时不显示 detached HEAD 提示
+	detachedHead = false
+[core]
+# 提交时转换为 LF，检出时不转换（还是 LF）
+	autocrlf = input
+	safecrlf = warn
+	excludesfile = /Users/xiao/.gitignore_global
+[pull]
+	rebase = false
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[gpg]
+	program = gpg
+[commit]
+	gpgsign = true
+[init]
+	defaultBranch = main
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true

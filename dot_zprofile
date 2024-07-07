@@ -1,0 +1,11 @@
+# Added by Toolbox App
+export PATH="$PATH:/Users/xiao/Library/Application Support/JetBrains/Toolbox/scripts"
+
+# Homebrew
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
+# Created by `pipx` on 2023-12-09 08:53:05
+export PATH="$PATH:/Users/xiao/.local/bin"
+
+# Added by OrbStack: command-line tools and integration
+source ~/.orbstack/shell/init.zsh 2>/dev/null || :

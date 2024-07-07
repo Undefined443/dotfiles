@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>customSites</key>
+	<dict>
+		<key>3A890D37-F5E6-4EEA-B0FB-607F6BD4FC4D</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>exp</string>
+			<key>text</key>
+			<string>解释 Shell 命令</string>
+			<key>url</key>
+			<string>https://explainshell.com/explain?cmd={query}</string>
+		</dict>
+		<key>54BA1D1F-3F7C-4C08-9FA2-29926C557D5C</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>man</string>
+			<key>text</key>
+			<string>搜索 Linux 中文手册</string>
+			<key>url</key>
+			<string>https://www.linux-man.cn/command/?command={query}</string>
+		</dict>
+		<key>6086552B-087C-451C-89DA-DC7EF7D36958</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>scholar</string>
+			<key>text</key>
+			<string>搜索谷歌学术</string>
+			<key>url</key>
+			<string>https://scholar.google.com/scholar?&amp;q={query}</string>
+		</dict>
+		<key>72F07882-59FC-477A-B58A-413608F44798</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>lib</string>
+			<key>text</key>
+			<string>搜索 Z-Library</string>
+			<key>url</key>
+			<string>https://lib-5623qwdchmaruml6yolffwcb.1lib.ph/s/{query}?</string>
+		</dict>
+		<key>7AE16FC1-1480-41A3-9C19-9964972F3D07</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>lizhi</string>
+			<key>text</key>
+			<string>荔枝数码</string>
+			<key>url</key>
+			<string>https://www.lizhi.io/?s={query}</string>
+		</dict>
+		<key>A2C1E95C-0733-49D0-9F4C-EA005BFE96FA</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>steam</string>
+			<key>text</key>
+			<string>搜索 Steam</string>
+			<key>url</key>
+			<string>https://store.steampowered.com/search/?term={query}</string>
+		</dict>
+		<key>A2D58194-6C8C-4BB3-9650-65EB2217996C</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>cu</string>
+			<key>text</key>
+			<string>Cubox</string>
+			<key>url</key>
+			<string>https://cubox.pro/my/search?q={query}</string>
+		</dict>
+		<key>C579B363-A5DE-4865-AB65-B875AF044CAC</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>steamdb</string>
+			<key>text</key>
+			<string>搜索 Steam DB</string>
+			<key>url</key>
+			<string>https://steamdb.info/search/?a=all&amp;q={query}</string>
+		</dict>
+		<key>D339E82A-29D1-4466-9AAA-FD923064B059</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>archive</string>
+			<key>text</key>
+			<string>搜索 Internet Archive</string>
+			<key>url</key>
+			<string>https://web.archive.org/web/*/{query}</string>
+		</dict>
+		<key>DA3EF57E-0EF0-4F5D-B008-98D0B48E8970</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>git</string>
+			<key>text</key>
+			<string>搜索 GitHub</string>
+			<key>url</key>
+			<string>https://github.com/search?q={query}</string>
+		</dict>
+		<key>F4ADC4A4-F1AA-4004-AF58-294C09600793</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>movie</string>
+			<key>text</key>
+			<string>搜索布谷TV</string>
+			<key>url</key>
+			<string>https://www.bugutv.org/?cat=&amp;s={query}</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

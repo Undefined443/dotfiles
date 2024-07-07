@@ -1,0 +1,24 @@
+serverAddr = "8.134.175.243"
+serverPort = 7000
+
+# 认证
+[auth]
+method = "token"
+token = "LiXiao126430"
+
+# Web Dashboard
+[webServer]
+addr = "127.0.0.1"
+port = 7400
+user = "xiao"
+password = "1296954"
+pprofEnable = false
+
+# 内网穿透配置
+[[proxies]]
+name = "ssh"
+type = "tcp"
+localIP = "127.0.0.1"
+localPort = 22
+remotePort = 6002
+

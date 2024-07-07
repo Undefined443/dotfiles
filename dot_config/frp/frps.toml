@@ -1,0 +1,12 @@
+# frp 服务器用于接收客户端连接的端口
+bindPort = 7000
+
+[webServer]
+port = 7500  # webServer 监听端口
+addr = "0.0.0.0"  # webServer 监听地址，默认为 127.0.0.1。0.0.0.0 允许所有地址访问
+user = "ecs-user"  # HTTP BasicAuth 用户名
+password = "1296954"  # HTTP BasicAuth 密码
+
+vhostHTTPPort = 7777  # HTTP 类型代理监听的端口，启用后才能支持 HTTP 类型的代理
+vhostHTTPSPort = 7778  # HTTPS 类型代理监听的端口，启用后才能支持 HTTPS 类型的代理
+tcpmuxHTTPConnectPort = 7779  # tcpmux 类型且复用器为 httpconnect 的代理监听的端口
